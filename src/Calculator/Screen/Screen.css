@@ -1,0 +1,81 @@
+.screen{
+    height: 30%;
+    max-height: 30% !important;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 27px 9px 10px;
+    font-family: 'Dongle', sans-serif;
+    flex: 1;
+    /* overflow: hidden; */
+    border-radius: 20px 20px 0 0;
+    position: relative;
+}
+.screen_dark {
+    background: #08081f;
+    color: #fff;
+    margin-right: -1px;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+.history h3{
+    font-weight: 400;
+    font-size: .8rem;
+    text-align: right;
+    margin-top: 5px;
+}
+.history{
+    width: 100%;
+    max-height: 100px ;
+    min-height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 4px;
+    text-align: right;
+}
+.history p{
+    font-size: .95rem;
+    margin-bottom: 4px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    white-space: wrap;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.expression{
+    width: 100%;
+    text-align: right;
+    font-size: 1.1rem;
+    letter-spacing: 1.50px;
+    margin: 0 5px 15px;
+    /* margin-top: ; */
+    white-space: wrap;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.expression p{
+    min-width: 100%;
+    min-height: 22px;
+    /* white-space: nowrap; */
+    /* width: fit-content; */
+    text-align: right;
+    font-weight: 500;
+}
+.output{
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: right;
+    font-weight: 600;
+    letter-spacing: 1px;
+    min-height: 22px;
+    margin-top: 10px;
+}
+.greeting_message{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+}

@@ -1,3 +1,18 @@
+.scrollbar::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+.scrollbar::-webkit-scrollbar-track{
+  background: transparent;
+}
+.scrollbar::-webkit-scrollbar-thumb{
+  background: rgba(0, 0, 0, 0.042);
+  border-radius: 10px;
+}
+.scrollbar::-webkit-scrollbar-thumb:hover{
+  background: rgb(109, 109, 109);
+}
+
 .App {
   text-align: center;
 }
